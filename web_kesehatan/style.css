@@ -1,0 +1,83 @@
+:root {
+     --bg-color: #C2FFC7;
+     --bg-home-color : #0b1120;
+     --txt: #BCC6D3;
+     --btn-color : #526E48;
+     --nav : #9EDF9C;
+     --bg-form : #334155;
+     --card : #1e293b;
+     --txt-special : #246f97;
+   }
+
+
+*,html {
+     padding: 0px;
+     margin: 0px; 
+}
+
+body {
+     background: var(--bg-color);
+
+}
+
+header{
+     background: var(--nav);
+
+}
+
+.container-header {
+     display: flex;
+     /* background: blue; */
+     padding-right: 27px;
+     padding-left: 27px;
+     justify-content: space-between;
+     align-items: center;
+     height: 10vh;
+
+}
+
+.title {
+     font-size: 29px;
+}
+.container-nav > ul {
+     display: flex;
+     justify-content: space-evenly;
+     list-style-type: none;
+     width: 40vw;
+     align-items: center;
+
+
+}
+.container-nav > ul > button {
+     border: 1px solid transparent;
+     border-radius:10px;
+     background: var(--btn-color);
+     box-shadow: 0 10px 0 black;
+     padding-right: 18px;
+     padding-left: 18px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     box-sizing: border-box;
+     cursor: pointer;
+}
+
+.container-nav > ul > button > a {   
+     color: white;
+     text-decoration: none;   
+}
+.container-nav > ul > button:active {
+     box-shadow: 0 4px 0 black;
+     transform: translateY(6px);
+}
+
+
+.container-img-menu > img  {
+     width: 30px;
+     height: 30px;
+}
+
+
+
+
+
+

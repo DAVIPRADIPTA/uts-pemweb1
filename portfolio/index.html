@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="cont-header">
+          <div class="cont-tittle">
+               <h2>Dipta<span>Code</span></h2>
+          </div>
+          <nav class="cont-nav">
+               <ul>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>About Me</li></a>
+                    <a href="#project"><li>Project</li></a>
+                    <a href="#contact"><li>Contact Me</li></a>
+               </ul>
+          </nav>
+          <div class="cont-github-logo">
+               <img src="img/github-logo.png" alt="">
+          </div>
+          <div class="cont-menu-logo" id="cont-menu-logo">
+               <img src="img/menu.png" id="img-menu" alt="">
+          </div>
+          
+     </header>
+     <nav class="cont-nav-mobile nav-in" id="cont-nav-mobile">
+          <ul>
+               <a href="#home"><li>Home</li></a>
+               <a href="#about"><li>About Me</li></a>
+               <a href="#project"><li>Project</li></a>
+               <a href="#contact"><li>Contact Me</li></a>
+          </ul>
+     </nav>
+     <section id="home" class="cont-home">
+          <div class="cont cont-img-home">
+               <img src="img/th.jpeg" alt="">
+          </div>
+          <div class="cont cont-info-home">
+               <p>Hello World,i'm</p>
+               <h2>Davi Pradipta</h2>
+               <h3>Web Developer</h3>
+               <h1>Welcome to My personal website</h1>
+          </div>
+          
+          
+
+     </section>
+     <section id="about">
+          <!-- <h1>Hello World!!!</h1> -->
+          <div class="cont cont-about">
+               <h1 class="cont-tittle-about">About Me</h1>
+               <div>
+                    <p class="cont-info-about">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, repudiandae quas. Autem animi doloremque at rem quam. Eos magnam deserunt quia impedit veritatis, delectus itaque nobis recusandae beatae, atque iure amet, neque dicta tenetur corporis sapiente ea odio sunt? Unde ipsum, debitis suscipit dolorem cumque porro ullam repellat ab aspernatur!
+                    </p>
+                    <img class="cont-img-about" src="img/th.jpeg" alt="">
+               </div>
+               
+          </div>
+     </section>
+     <section id="project">
+          <div class="cont cont-project">
+               <h1 class="cont-tittle-project">Project</h1>
+               <div class="cont-card-project">
+                    <div class="card-project">
+                         <img src="img/th.jpeg" alt="">
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fugiat?
+                         </p>
+                    </div>
+                    <div class="card-project">
+                         <img src="img/th.jpeg" alt="">
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reprehenderit nostrum dolor. Neque, magnam ipsa!</p>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <section id="contact">
+          <div class="cont cont-contact">
+               <h1>Contact Me</h1>
+               <form action="#" method="POST">
+                    <label for="name">Nama</label>
+                     <!-- <div>Nama</div> -->
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="phone">Nomor</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <br>
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+            
+                    <button type="submit">Kirim</button>
+                </form>
+          </div>
+     </section>
+
+     <script src="script.js"></script>
+</body>
+</html>
