@@ -8,38 +8,53 @@
 </head>
 <body>
      <header class="container-header">
-          <h4 class="title">Medik<span>Care</span> </h4>
-          <nav class="container-nav">
+          <h4 class="cont title">Medik<span>Care</span> </h4>
+          <nav class="cont container-nav">
                <ul>
-                    <button><a href="">Home</a></button>
-                    <button><a href="">Content</a></button>
-                    <button><a href="">About us</a></button>
-                    <!-- <li></li>
-                    <li><a href="">Content</a></li>
-                    <li><a href="">About Us</a></li> -->
+                    <button type="button"><a href="#home">Home</a></button>
+                    <button type="button"><a href="#content">Content</a></button>
+                    <button type="button"><a href="#about">About us</a></button>
                </ul>         
           </nav>          
      </header>
      <main>
-          <section id="home">
-
+          <section id="home" class="cont cont-home">
+               <h1>Achieve a healthy life <br> starting now!!</h1>
+               <p>Raih hidup sehat yang lebih bermakna. Mulai sekarang, lakukan perubahan kecil yang berdampak besar pada tubuh dan pikiranmu. Langkah-langkah sederhana hari ini akan membawa Anda pada keseimbangan dan energi baru untuk masa depan.</p>
+                    <button type="button"><a href="#cekBmi">Start Now!!</a></button>
           </section>
 
 
-          <section id="content">
-
+          <section id="content" class="cont-content-1 cont">
+               <h1>
+                    Kesehatan bukan tujuan, <br> tapi perjalanan.
+               </h1>
+               <p>Kesehatan bukanlah suatu tujuan akhir, melainkan perjalanan panjang yang menuntut konsistensi dan perhatian setiap hari. Menjaga kesehatan berarti lebih dari sekadar terhindar dari penyakit; ini adalah tentang menyeimbangkan berbagai aspek kehidupan, seperti pola makan, aktivitas fisik, kesejahteraan mental, dan hubungan sosial. Dalam perjalanan ini, kita belajar mengenal tubuh dan pikiran lebih dalam, memahami batas-batas dan kekuatannya. Kesehatan juga melibatkan sikap fleksibel, menerima perubahan yang datang seiring bertambahnya usia, dan merawat diri dengan cinta serta perhatian. Setiap hari adalah kesempatan baru untuk lebih sadar, bertumbuh, dan merawat diri dengan tujuan hidup yang seimbang dan penuh makna, bukan sekadar memenuhi standar kesehatan semata.</p>
+          </section>
+          <section class="cont-content2">
+               <div class="container">
+                    <h1>Perhitungan Indeks BMI</h1>
+                    <input type="number" id="berat">
+                    <input type="number" id="tinggi">
+                    <input type="button" id="button" onclick="cekBmi()" value="cek">
+                    <div id="result"></div>
+                </div>
           </section>
 
-
-          <section>
-
-          </section>
-
-
-          <section id="about">
-
+          <section id="about" class="cont-about cont">
+               <div class="story">
+                    <h1>OUR STORY</h1>
+                    <p>Website kami hadir untuk memudahkan akses informasi kesehatan yang akurat dan terpercaya, membantu masyarakat lebih memahami pentingnya kesehatan dalam kehidupan sehari-hari. Melalui artikel yang dirancang dengan teliti, kami memberikan panduan kesehatan yang mencakup berbagai topik penting seperti nutrisi, kebugaran, kesehatan mental, dan pencegahan penyakit.</p>
+                    <p>Kami percaya bahwa kesehatan bukan sekadar tujuan, melainkan perjalanan yang memerlukan perhatian berkelanjutan. Kami berdedikasi untuk mendampingi Anda melalui informasi yang mudah dipahami dan relevan dengan kebutuhan sehari-hari, mendukung Anda dalam menjalani hidup yang lebih sehat, bahagia, dan berkualitas.</p>
+               </div>
+               <div class="img">
+                    <img src="kesehatan.jpg" alt="">
+               </div>
           </section>
      </main>
+     <footer>
+          <p>davi Pradipta</p>
+     </footer>
      <script src="script.js"></script>
 </body>
 </html>

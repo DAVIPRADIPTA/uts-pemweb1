@@ -31,3 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
      images.forEach(img => observer.observe(img));
  });
  
+
+document.getElementById("form").addEventListener("submit", function (e) {
+    e.preventDefault()
+    alert("data telah terkirim")
+})

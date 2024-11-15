@@ -13,6 +13,7 @@
    }
 
 *,html {
+     overflow-x: hidden;
      padding: 0px;
      margin: 0px;
      scroll-behavior: smooth;
@@ -32,10 +33,10 @@
      align-items: center;
      z-index: 2;
      position: fixed;
-
 }
 
 .cont-tittle {
+     font-size: 10px;
      margin-left: 20px;
      color: white;
 }
@@ -49,8 +50,8 @@
 
 .cont-menu-logo {
      margin-right: 20px;
-     height: 30px;
-     width: 30px;
+     height: 25px;
+     width: 25px;
 }
 
 .cont-menu-logo > img {
@@ -59,8 +60,6 @@
 }
 .cont-nav {
      display: none;
-
-     
 }
 .cont-nav-mobile {
      margin-top: 0px;
@@ -130,12 +129,12 @@
      
 }
 .cont-info-home {
-     font-size: 20px;
+     font-size: 10px;
      gap: 10px;
      display: flex;
      flex-direction: column;
      font-family: "Zen Dots", sans-serif;
-     font-weight: 400;
+     font-weight: 200;
      font-style: normal;
      
 }
@@ -150,7 +149,7 @@
 }
 
 #about {
-     height: 60vh;
+     height: 90vh;
      background: var(--bg-color);
      position: relative;
      display: flex;
@@ -171,12 +170,12 @@
 
 .cont-tittle-about {
      margin-bottom: 20px;
-     position: relative;
+     /* position: relative; */
      color: var(--txt-special);
      height: 30px;
-     font-size: 30px;
+     font-size: 20px;
 }
-.cont-tittle-about::after {
+/* .cont-tittle-about::after {
      position: absolute;
      content: "";
      color: yellow; 
@@ -186,7 +185,7 @@
      height: 1px;
      border: 1px solid black; 
      background: black;
-   }
+   } */
 
 .cont-img-about {
      width: 60px; /* Sesuaikan dengan ukuran yang diinginkan */
@@ -195,14 +194,16 @@
      object-fit: cover; 
      border: 1px solid cyan;
      /* display: none; */
-     position: absolute;
+     position: relative;
      right: -30px;
-     top: -30px;
+     top: 9px;
+     display: none;
+     /* z-index: 10; */
 }
 
 .cont-info-about {
      color: white;
-     font-size: 20px;
+     font-size: 10px;
      font-family: "Zen Dots", sans-serif;
      font-weight: 400;
      font-style: normal;
@@ -228,7 +229,7 @@
      /* top: 100px; */
      text-align: center;
      width: 100vw;
-     font-size: 40px ;
+     font-size: 20px ;
      color: var(--txt-special);
      height: 120px;
      justify-content: center;
@@ -248,6 +249,7 @@
 
 }
 .card-project {
+     font-size: 10px;
      width: 80vw;
      height: fit-content;
      background: var(--card);
@@ -289,20 +291,21 @@
 
 .cont-contact > h1 {
      margin-top: 20px;
-     font-size: 30px;
+     font-size: 20px;
 }
 
 
 .cont-contact > form > label {
      display: block;
-     font-weight: bold;
+     font-weight: 100;
      margin-bottom: 8px;
      margin-top: 20px;
+     font-size: 10px;
 }
 
 .cont-contact > form > input,
 .cont-contact > form > textarea {
-     width: 95%;
+     width: 80vw;
      padding: 10px;
      margin-bottom: 15px;
      border: 1px solid #ccc;
@@ -312,7 +315,7 @@
 }
 
 .cont-contact > form > button {
-     width: 100%;
+     width: 80vw;
      padding: 10px;
      background-color: var(--btn-color);
      font-size: 16px;
@@ -359,7 +362,7 @@
           display: flex;
           list-style: none;
           gap: 30px;
-          font-size: 20px;
+          font-size: 10px;
           color: white;
           text-decoration: none;
           /* margin-right: 20px; */
@@ -370,7 +373,7 @@
           justify-content: space-around;
      }
      .cont-tittle {
-          font-size: 25px;
+          font-size: 18px;
           margin-left: 0px;
      }
      .cont-github-logo {
@@ -382,7 +385,7 @@
 
      }
      .cont-info-home {
-          font-size: 30px;
+          font-size: 20px;
           gap: 15px;
           display: flex;
           flex-direction: column;
@@ -403,7 +406,7 @@
      }
 
      .cont-tittle-about {
-          font-size: 40px;
+          font-size: 30px;
      }
      .cont-tittle-about::after{
           bottom: -15px;
@@ -424,16 +427,18 @@
 
      .cont-info-about {
           margin-top: 20px;
-          font-size: 25px;
+          font-size: 15px;
      }
 
      #project {
           padding-top: 60px;
+          display: flex;
+          justify-content: center;
      }
 
      .cont-tittle-project {
           /* margin-top: 2000px; */
-          font-size: 50px;
+          font-size: 25px;
      }
 
      .cont-card-project {
@@ -459,7 +464,7 @@
           /* position: absolute; */
      }
      .card-project > p {
-          font-size: 23px;
+          font-size: 15px;
      }
      .cont-contact {
           width: 50vw;
